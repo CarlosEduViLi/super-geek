@@ -5,5 +5,5 @@ class Cliente(models.Model):
     email = models.EmailField(unique=True)
     criado_em = models.DateTimeField(auto_now_add=True)
 
-    def __str__(self):
+    def __(self):
         return self.nome
